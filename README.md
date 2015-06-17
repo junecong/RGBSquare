@@ -6,10 +6,14 @@ I love the idea of separating an item into its components and seeing how they co
 
 Examples below:
 
-![ScreenShot](https://junecong.com/img/project%20images/RGBSquares3.jpg)
+![ScreenShot](https://junecong.com/img/project%20images/RGBSquare3.png)
 
-![ScreenShot](https://junecong.com/img/project%20images/RGBSquares2.jpg)
+![ScreenShot](https://junecong.com/img/project%20images/RGBSquare3.png)
 
-![alt tag](https://junecong.com/img/project%20images/RGBSquares2.jpg)
+![alt tag](https://junecong.com/img/project%20images/RGBSquare2.png)
 
-![My image](junecong.github.com/images/RGBSquare1.jpg)
+![My image](https://junecong.github.com/images/RGBSquare3.png)
+
+![alt text](https://junecong.github.com/images/RGBSquare3.png)
+
+![My image](junecong.github.com/images/RGBSquare3.png)
