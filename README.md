@@ -6,14 +6,6 @@ I love the idea of separating an item into its components and seeing how they co
 
 Examples below:
 
-![ScreenShot](https://junecong.com/img/project%20images/RGBSquare3.png)
+<img src="https://github.com/junecong/RGBSquare/blob/master/imgs/ModernSquares.jpg?raw=true" width="700">
 
-![ScreenShot](https://junecong.com/img/project%20images/RGBSquare3.png)
-
-![alt tag](https://junecong.com/img/project%20images/RGBSquare2.png)
-
-![My image](https://junecong.github.com/images/RGBSquare3.png)
-
-![alt text](https://junecong.github.com/images/RGBSquare3.png)
-
-![My image](junecong.github.com/images/RGBSquare3.png)
+<img src="https://github.com/junecong/RGBSquare/blob/master/imgs/MonaSquares.jpg?raw=true" width="700">
