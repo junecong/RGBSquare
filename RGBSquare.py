@@ -3,34 +3,26 @@
 import random, math
 from PIL import Image
 
-#Loads in an image, finds the size, and calls grid on it
-def artGen():
-	pic = Image.open("plazanew.jpg")
+#Loads in an image, finds the size, and calls grid on each RGB band
+def artGen(numGrids):
+	pic = Image.open("img.jpg")
 	imageWidth = pic.size[0]
 	imageHeight = pic.size[1]
 	print(imageWidth)
 	print(imageHeight)
 
 	r, g, b = pic.split()
-	print("Working on R")
-	r = grid(r, imageWidth, imageHeight)
-	print("Done with R")
-	print("Working on G")
-	g = grid(g, imageWidth, imageHeight)
-	print("Done with G")
-	print("Working on B")
-	b = grid(b, imageWidth, imageHeight)
-	print("Done with B")
-	# r.save("r.png", "JPEG")
-	# g.save("g.png", "JPEG")
-	# b.save("b.png", "JPEG")
-	
-	final = Image.merge("RGB", (r, g, b))
-	final.save("plazanewnew.jpg", "JPEG")
+	r = grid(r, imageWidth, imageHeight, numGrids)
+	g = grid(g, imageWidth, imageHeight, numGrids)
+	b = grid(b, imageWidth, imageHeight, numGrids)
 
-def grid(im, width, height):
-	sqAcross = int(width/15)
-	sqUpDown = int(height/15)
+	final = Image.merge("RGB", (r, g, b))
+	final.save("imgnew.jpg", "JPEG")
+
+#separates image into grids
+def grid(im, width, height, numGrids):
+	sqAcross = int(width/numGrids)
+	sqUpDown = int(height/numGrids)
 
 	sqDimension = max(sqAcross, sqUpDown)
 
@@ -67,5 +59,6 @@ def changeImage(region):
 	
 	return region
 
-artGen()
+num = input("Enter how many grids would you like to divide your image into: ")
+artGen(num)
 
